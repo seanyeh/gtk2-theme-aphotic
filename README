@@ -1,0 +1,14 @@
+Aphiotic
+
+Aphotic is a simple gtk2 theme based on Aurora Midnight, just a bit 
+darker and a light blue foreground color. It requires the Aurora Gtk 
+engine, which you can most likely get from your distribution's 
+package management tool.
+
+Go to http://wiki.github.com/snoblo/gtk2-theme-aphotic/screenshots to 
+see what it looks like.
+
+Installation:
+Like installing any other theme, just extract the archive to ~/.themes
+
+Enjoy!
