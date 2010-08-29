@@ -55,8 +55,6 @@ style "theme-default"
   GtkMenu::horizontal-offset = -1
 
   #removes extra padding at top and bottom of menus.  Makes menuitem overlap border
-  
-  #COMMENTED BY ME
   #http://zuttobenkyou.wordpress.com/2008/11/10/aurora-gtk-engine-14-fix-for-thunar/  
   #GtkMenu::vertical-padding = 0
   GtkMenu::vertical-padding = 1
@@ -68,7 +66,6 @@ style "theme-default"
   GtkMenuItem::arrow-spacing = 10
   #Spacing between edge with indicator and text
   GtkOptionMenu  ::indicator-size = {11, 5}
-  #GtkOptionMenu  ::indicator-spacing = {6, 5, 4, 4}
 
   GtkCheckButton ::indicator-size = 15
   GtkCheckButton ::indicator-spacing = 1
@@ -108,7 +105,6 @@ style "theme-default"
   text[ACTIVE]		=  shade (0.65,@text_color)
   text[PRELIGHT]   	=  @text_color
   text[SELECTED]   	=  @selected_fg_color
-#  text[INSENSITIVE]	=  shade (1.70,@bg_color)
   text[INSENSITIVE]	=  shade (1.30,@base_color)
   
   engine "aurora" 
@@ -150,7 +146,6 @@ style "theme-button" = "theme-widest"
 {
   bg[NORMAL]   =  shade (0.80,@base_color)
   bg[ACTIVE]   =  shade (0.25,@bg_color)
-#  bg[ACTIVE]   =  shade (0.3,"#82E1FA")
   bg[PRELIGHT] =  mix(0.60, shade (1.35,@bg_color), @selected_bg_color)
 
   #for arrows
@@ -305,7 +300,6 @@ class "GtkMenuBar"      style "theme-menubar"
 class "GtkEntry"        style "theme-entry"
 class "GtkProgressBar"  style "theme-progressbar"
 class "GtkToolbar"      style "theme-toolbar"
-#class "GtkSeparator"    style "theme-wide"
 class "GtkSeparator"    style "theme-separator"
 
 
